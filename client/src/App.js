@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // COMPONENTS
 import Navbar from './components/Navbar/Navbar';
-import Info from './components/Info/Info';
+import Home from './components/Pages/HomePage/Home';
 
 // STYLES
 import GlobalStyles from './globalStyles';
@@ -15,7 +15,7 @@ const App = () => {
         <GlobalStyles />
         <Navbar />
         <Routes>
-            <Route path="/" element={<Info />}/>
+            <Route path="/" element={<Home />}/>
         </Routes>
       </BrowserRouter>
     </>
